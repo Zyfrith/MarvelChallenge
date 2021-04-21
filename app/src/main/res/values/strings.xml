@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MarvelChallenge</string>
+    <string name="title_characters">Characters</string>
+    <string name="title_calendar">Calendar</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">789709308325015</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb789709308325015</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sign_up_with_email">Don\'t have an account? Sign Up through email here!</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="repeat_password">Repeat Password</string>
+
+</resources>
