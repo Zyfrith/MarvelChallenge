@@ -42,6 +42,17 @@
                 app:layout_constraintTop_toBottomOf="@id/email_login"
                 tools:layout_editor_absoluteX="16dp" />
 
+            <Button
+                android:id="@+id/email_sign_in_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textSize="12sp"
+                android:text="EMAIL SIGN IN"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/email_pass" />
+
             <com.facebook.login.widget.LoginButton
                 android:id="@+id/facebook_login_button"
                 android:layout_width="wrap_content"
@@ -51,16 +62,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/email_sign_in_button" />
-
-            <Button
-                android:id="@+id/email_sign_in_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="EMAIL SIGN IN"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/email_pass" />
 
             <TextView
                 android:id="@+id/sign_up"
